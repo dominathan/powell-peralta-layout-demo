@@ -1,0 +1,115 @@
+body {
+  background: url("assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+* {
+  font-family: "Didact Gothic"; }
+
+.container {
+  width: 60%;
+  margin: auto; }
+
+header .nav-things {
+  margin: 0; }
+
+header ul {
+  padding: 0;
+  margin-left: 53%; }
+  header ul li {
+    list-style-type: none;
+    display: inline-block; }
+
+.move-me-left {
+  position: relative;
+  bottom: 23px;
+  right: 39%;
+  color: white; }
+
+header nav ul li {
+  background-color: red;
+  color: white;
+  width: 23%;
+  padding: 6px;
+  text-align: center;
+  margin-right: 1px; }
+
+.camera {
+  height: 320px;
+  width: 99%;
+  border: 4px solid white;
+  margin: 1% 0 3% 0;
+  background: url("assets/top-image.png");
+  background-size: 150%;
+  background-position-y: 19%;
+  background-position-x: 23%; }
+  .camera img {
+    margin-top: 5%;
+    margin-left: 5%; }
+
+.three-dots {
+  text-align: center; }
+
+.note-pads {
+  margin-top: 2%;
+  width: 100%; }
+  .note-pads .col-third {
+    width: 33%;
+    display: inline-block;
+    background-color: white; }
+  .note-pads h4 {
+    color: black;
+    font-size: 15px; }
+
+.sk8r-bros {
+  margin: 4% 0;
+  height: 400px; }
+  .sk8r-bros .col-half {
+    width: 48%;
+    height: 50%;
+    display: inline-block; }
+  .sk8r-bros .col-two-thirds {
+    width: 64%;
+    height: 100%;
+    display: inline-block; }
+  .sk8r-bros .col-reg-third {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top; }
+
+.lance {
+  background: url("assets/sk8er-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid white; }
+
+.rodney {
+  background: url("assets/sk8er-4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid white; }
+
+.steve {
+  height: 50%;
+  background: url("assets/sk8er-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid white; }
+
+.tommy {
+  background: url("assets/sk8er-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid white;
+  text-align: center; }
+  .tommy span {
+    font-size: 3em;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    top: 26%; }
